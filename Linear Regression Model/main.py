@@ -29,7 +29,6 @@ y = np.array(data[predict])
 # The label, here is just the predict(G3) column of "data"
 
 x_train, x_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y, test_size=0.1)
-
 # We are splitting the testing data and training data as 90%-10%
 
 linear = linear_model.LinearRegression()
